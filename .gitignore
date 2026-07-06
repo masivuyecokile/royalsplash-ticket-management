@@ -1,0 +1,47 @@
+# Environment
+.env
+.env.local
+.env.production
+.env.staging
+
+# Composer
+/vendor/
+
+# Logs
+*.log
+logs/
+storage/logs/
+
+# Generated tickets and PDFs
+storage/tickets/
+storage/pdfs/
+storage/qr/
+storage/google-wallet/
+storage/google-wallet/debug/
+
+# Uploads
+uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Node files if added later
+node_modules/
+npm-debug.log
+
+# Sensitive keys
+*.pem
+*.key
+*.json
+!composer.json
+!package.json
