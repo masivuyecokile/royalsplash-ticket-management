@@ -245,7 +245,7 @@ They can cancel the pending transfer before the recipient accepts.
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/royal-splash.git
+git clone https://github.com/YOUR-USERNAME/royalsplash-ticket-management.git
 cd royal-splash
 ```
 
